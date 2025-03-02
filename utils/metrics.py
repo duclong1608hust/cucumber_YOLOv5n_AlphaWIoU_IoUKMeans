@@ -282,7 +282,7 @@ def bbox_iou(box1, box2, xywh=True,
             WIoU=False,
             MPDIoU=False,
             scale=False,
-            alpha=1, gamma=0.5, eps=1e-7):
+            alpha=3, gamma=0.5, eps=1e-7):
    # Returns Intersection over Union (IoU) of box1(1,4) to box2(n,4)
 
    # Get the coordinates of bounding boxes
